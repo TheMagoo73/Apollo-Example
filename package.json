@@ -1,0 +1,27 @@
+{
+  "name": "apollo-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index",
+    "coverage": "nyc mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.11.0",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "fetch-mock": "^9.3.1",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0",
+    "rewire": "^5.0.0"
+  }
+}
